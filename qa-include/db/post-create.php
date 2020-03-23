@@ -144,12 +144,10 @@ function qa_db_titlewords_add_post_wordids($postid, $wordids)
 	if (!empty($wordids)) {
 		$rowstoadd = array();
 		foreach ($wordids as $wordid)
-			$rowstoadd[] = array($postid, $wordid);
-
-		qa_db_query_sub(
-			'INSERT INTO ^titlewords (postid, wordid) VALUES #',
-			$rowstoadd
-		);
+            qa_db_query_sub(
+                'INSERT INTO ^titlewords (postid, wordid) VALUES (#, #)',
+                $postid, $wordid
+            );
 	}
 }
 
