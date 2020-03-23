@@ -251,10 +251,9 @@ function qa_db_word_mapto_ids_add($words)
 		$wordtoid = qa_db_word_mapto_ids($words); // map it again in case table content changed before it was locked
 
 		$rowstoadd = array();
-		foreach ($words as $word) {
-			if (!isset($wordtoid[$word]))
-        		qa_db_query_sub('INSERT IGNORE INTO ^words (word) VALUES $', $word);
-
+		foreach ($wordstoadd as $word) {
+            error_log($word)
+      		qa_db_query_sub('INSERT IGNORE INTO ^words (word) VALUES $', $word);
 		}
 
 		qa_db_query_sub('UNLOCK TABLES');
