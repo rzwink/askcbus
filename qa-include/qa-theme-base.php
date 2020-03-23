@@ -931,7 +931,7 @@ class qa_html_theme_base
 		$this->output('<div class="qa-footer">');
 
 		$this->nav('footer');
-		$this->attribution();
+
 		$this->footer_clear();
 
 		$this->output('</div> <!-- END qa-footer -->', '');
