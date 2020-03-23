@@ -94,9 +94,9 @@
 	files. The directory must be writable by the web server. For maximum security it's STRONGLY
 	recommended to place the folder outside of the web root (so they can never be accessed via a
 	web browser).
-
-	define('QA_CACHE_DIRECTORY', '/path/to/writable_cache_directory/');
 */
+	define('QA_CACHE_DIRECTORY', '/tmp');
+
 
 /*
 	If you wish, you can define QA_COOKIE_DOMAIN so that any cookies created by Q2A are assigned
