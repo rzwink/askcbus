@@ -165,12 +165,10 @@ function qa_db_contentwords_add_post_wordidcounts($postid, $type, $questionid, $
 	if (!empty($wordidcounts)) {
 		$rowstoadd = array();
 		foreach ($wordidcounts as $wordid => $count)
-			$rowstoadd[] = array($postid, $wordid, $count, $type, $questionid);
-
-		qa_db_query_sub(
-			'INSERT INTO ^contentwords (postid, wordid, count, type, questionid) VALUES #',
-			$rowstoadd
-		);
+            qa_db_query_sub(
+                'INSERT INTO ^contentwords (postid, wordid, count, type, questionid) VALUES (#, #, #, $, #)',
+                $postid, $wordid, $count, $type, $questionid
+            );
 	}
 }
 
@@ -185,12 +183,9 @@ function qa_db_tagwords_add_post_wordids($postid, $wordids)
 	if (!empty($wordids)) {
 		$rowstoadd = array();
 		foreach ($wordids as $wordid)
-			$rowstoadd[] = array($postid, $wordid);
-
-		qa_db_query_sub(
-			'INSERT INTO ^tagwords (postid, wordid) VALUES #',
-			$rowstoadd
-		);
+            qa_db_query_sub(
+                'INSERT INTO ^tagwords (postid, wordid) VALUES (#, #)',
+                $postid, $wordid);
 	}
 }
 
