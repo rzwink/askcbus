@@ -242,7 +242,7 @@ function qa_db_word_mapto_ids_add($words)
 	$wordstoadd = array();
 	foreach ($words as $word) {
 		if (!isset($wordtoid[$word]))
-			$wordstoadd[] = $word;
+			$wordstoadd[] = array($word);
 	}
 
 	if (!empty($wordstoadd)) {
