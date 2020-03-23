@@ -82,7 +82,7 @@ body {
 	background: #ecf0f1 !important;
 	position: relative;
 	font-family: "Ubuntu", "Helvetica", "Arial", "FreeSans", sans-serif;
-	color: #34495e;
+	color: #000000;
 }
 body.body-overflow {
 	overflow-y: hidden !important;
@@ -206,7 +206,7 @@ pre code {
 }
 
 code, samp, kbd {
-	color: #34495e;
+	color: #000000;
 	font-family: "Courier New",Courier,monospace,sans-serif;
 	text-align: left;
 }
@@ -458,7 +458,7 @@ blockquote p {
 }
 @media (min-width: 980px) {
 	.qa-logo-link {
-		background: #34495e;
+		background: #000000;
 		padding: 5px 15px;
 	}
 	.qa-logo-link:hover {
@@ -542,7 +542,7 @@ blockquote p {
 }
 
 .qa-nav-main-link {
-	background-color: #34495e;
+	background-color: #000000;
 	display: block;
 	line-height: normal;
 	min-width: 60px;
@@ -648,7 +648,7 @@ blockquote p {
 	min-height: 55px;
 	max-width: 80px;
 	padding: 2px;
-	background-color: #34495e;
+	background-color: #000000;
 	text-align: center;
 }
 #qam-account-toggle:hover {
@@ -662,7 +662,7 @@ blockquote p {
 }
 
 .qam-account-items {
-	background-color: #34495e;
+	background-color: #000000;
 	display: none;
 	position: absolute;
 	right: 0;
@@ -1203,7 +1203,7 @@ blockquote p {
 }
 
 .qam-q-list-close-icon {
-	background-color: #34495e;
+	background-color: #000000;
 	padding: 3px;
 	border-radius: 18px;
 	float: left;
@@ -1348,7 +1348,7 @@ blockquote p {
 	background: #fff;
 	display: block;
 	text-decoration: none;
-	color: #34495e;
+	color: #000000;
 }
 .qa-page-links-item a:hover, .qa-page-links-item a:focus {
 	background: #e67e22;
@@ -2088,7 +2088,7 @@ input[type="submit"], button {
 .qa-template-favorites h2 {
 	padding: 10px;
 	margin-bottom: 5px;
-	background: #34495e;
+	background: #000000;
 	color: #fff;
 }
 .qa-template-favorites h2 a {
@@ -2713,7 +2713,7 @@ input[type="submit"], button {
 .qa-c-list-item .qa-form-light-button {
 	padding: 10px 15px;
 	background: #bdc3c7 none center no-repeat;
-	color: #34495e;
+	color: #000000;
 	width: 24px;
 	height: 24px;
 	text-align: center;
@@ -2723,7 +2723,7 @@ input[type="submit"], button {
 	background-color: #d6dadb;
 }
 .qa-c-list-item .qa-form-light-button a, .qa-c-list-item .qa-form-light-button a:hover {
-	color: #34495e;
+	color: #000000;
 }
 .qa-c-list-item .qa-form-light-button-comment {
 	background-image: url('images/icons/comment.png');
@@ -2873,7 +2873,7 @@ input[type="submit"], button {
 	}
 	#qam-sidepanel-toggle.active {
 		opacity: 1;
-		color: #34495e;
+		color: #000000;
 		right: 280px;
 		box-shadow: -5px 0 15px 0 rgba(0, 0, 0, 0.5);
 	}
@@ -2925,7 +2925,7 @@ input[type="submit"], button {
 .qa-sidebar {
 	padding: 20px;
 	margin-bottom: 5px;
-	background: #34495e;
+	background: #000000;
 	color: #fff;
 }
 .qa-sidebar a {
@@ -2963,7 +2963,7 @@ input[type="submit"], button {
 	background: #9b59b6;
 }
 .qa-sidebar.wet-asphalt {
-	background: #34495e;
+	background: #000000;
 }
 
 .qa-activity-count {
@@ -3120,7 +3120,7 @@ input[type="submit"], button {
 /*------[ footer ]------*/
 .qam-footer-box {
 	padding: 0;
-	background: #34495e;
+	background: #000000;
 	color: #fff;
 	overflow: hidden;
 	margin: 0;
@@ -3391,7 +3391,7 @@ input[type="submit"], button {
 		border-left-color: #3d566e;
 	}
 	.qam-search-mobile.wet-asphalt.active {
-		background-color: #34495e;
+		background-color: #000000;
 	}
 }
 
