@@ -253,10 +253,10 @@ function qa_db_word_mapto_ids_add($words)
 		$rowstoadd = array();
 		foreach ($words as $word) {
 			if (!isset($wordtoid[$word]))
-				$rowstoadd[] = array($word);
+				$rowstoadd[] = $word;
 		}
 
-		qa_db_query_sub('INSERT IGNORE INTO ^words (word) VALUES #', $rowstoadd);
+		qa_db_query_sub('INSERT IGNORE INTO ^words (word) VALUES (#)', $rowstoadd);
 
 		qa_db_query_sub('UNLOCK TABLES');
 
