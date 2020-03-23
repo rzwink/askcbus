@@ -248,15 +248,7 @@ function qa_db_word_mapto_ids_add($words)
 	if (!empty($wordstoadd)) {
 		qa_db_query_sub('LOCK TABLES ^words WRITE'); // to prevent two requests adding the same word
 
-		$wordtoid = qa_db_word_mapto_ids($words); // map it again in case table content changed before it was locked
-
-		$rowstoadd = array();
-		foreach ($words as $word) {
-			if (!isset($wordtoid[$word]))
-				$rowstoadd[] = $word;
-		}
-
-		qa_db_query_sub('INSERT IGNORE INTO ^words (word) VALUES $', $rowstoadd);
+		qa_db_query_sub('INSERT IGNORE INTO ^words (word) VALUES $', array($wordstoadd);
 
 		qa_db_query_sub('UNLOCK TABLES');
 
