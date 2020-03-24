@@ -1,18 +1,10 @@
-<p align="center">
+<p align="center" style="background: #000000;">
     <a href="https://www.question2answer.org/">
-        <img src="https://www.question2answer.org/images/question2answer-logo-350x40.png" alt="Question2Answer" />
+        <img src="https://www.askcbus.com//qa-theme/SnowFlat/images/askcbus-logo.png" alt="AskCBUS" />
     </a>
 </p>
 
-<p align="center">
-	<a href="https://travis-ci.org/q2a/question2answer/branches"><img src="https://img.shields.io/travis/q2a/question2answer/dev.svg" alt="Build Status"></a>
-	<a href="https://github.com/q2a/question2answer/issues"><img src="https://img.shields.io/github/issues/q2a/question2answer.svg" alt="Open Issues"></a>
-	<a href="https://github.com/q2a/question2answer/releases"><img src="https://img.shields.io/github/release/q2a/question2answer.svg" alt="Current Release"></a>
-	<a href="https://docs.question2answer.org/install/"><img src="https://img.shields.io/travis/php-v/q2a/question2answer/dev.svg" alt="PHP version"></a>
-	<a href="https://www.question2answer.org/license.php"><img src="https://img.shields.io/badge/License-GPL-green.svg" alt="License"></a>
-</p>
-
-[Question2Answer][Q2A] (Q2A) is a popular free open source Q&A platform for PHP/MySQL, used by over [22,000 sites in 40 languages][3].
+Based on [Question2Answer][Q2A] (Q2A) a popular free open source Q&A platform for PHP/MySQL, used by over [22,000 sites in 40 languages][3].
 
 
 ## Key features
